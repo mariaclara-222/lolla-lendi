@@ -1,0 +1,286 @@
+header {
+    background-color: rgb(239, 179, 205);
+    padding: 20px 0;
+}
+
+body{
+ font-family: "Vidaloka&display", sans-serif;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 180px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0  1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .produto-preco{
+    font-size: 22px;
+    font-weight:bold;
+    margin-top: 10px;
+ }
+
+ .produto-descricao{
+    font-size: 16px;
+ }
+
+ .produto-imagem {
+    max-width: 100%;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+ }
+ nav a:hover {
+    color: orange;
+    text-decoration: underline;
+ }
+
+ .produtos li:hover {
+    border-color: orange;
+
+ }
+
+ .produtos li:active {
+    border-color: greenyellow;
+ }
+ .produtos h2:hover{
+    font-size: 34px;
+ }
+
+ footer{
+    text-align: center;
+    background: url("rosinha.jpg");
+    padding: 40px 0;
+ }
+
+ .copyright{
+   color:white;
+   font-size: 13px;
+   margin: 20px 0   0;
+ }
+ main{
+  
+ }
+ form{
+    margin: 40px  0;
+ }
+
+
+
+ form label{
+   display: block;
+   font-size: 20px;
+   margin: 0 0 10px;
+ } 
+
+      .input-padrao {
+   display: block;
+   margin: 0 0 20px;
+   padding: 10px 15px;
+   width: 50%;
+   }
+   
+   .checkbox {
+      margin: 20px; 
+   }
+   
+   .enviar{
+      width: 40%;
+      padding: 15px;
+      background-color: palevioletred;
+      color:azure; 
+      font-weight: bold;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 1s;
+   }
+
+
+   .enviar:hover{
+      background: pink;
+      transform: scale(1.2);
+   }
+
+   table{
+      margin: 20px 0 40px;
+   }
+
+      thead{
+         font-weight: bold;
+         background: palevioletred;
+         color: white;
+      }
+
+      th{
+         padding: 8px 15px;
+         border: 1px  solid black;
+      }
+
+      .banner{
+         width: 100%;
+      }
+
+   .titulo-principal {
+      text-align: center;
+      font-size: 2em;
+      margin: 0 0 1em;
+      clear: left;
+   }
+
+ .principal p {
+   margin: 0 0 1em;
+ }
+
+ .principal strong {
+ font-weight: bold;
+ }
+
+ .principal em {
+   font-style: italic;
+ }
+
+.imagembeneficios {
+   width: 60%;
+   opacity: 0.3;
+   transition: 400ms;
+   box-shadow: 10px  10px  10px;
+}
+   .imagembeneficios:hover{
+      opacity: 1;
+   }
+
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px  20px 0;
+   }
+
+      .mapa {
+         padding: 3em 0; 
+         background: linear-gradient(#FFFFFFFF, #888888);
+      }
+
+      .mapa p {
+      margin: 0 0 2em;
+     text-align: center;
+      }
+
+      .video  {
+         width: 560px;
+      margin:2em auto;
+   
+      }
+      
+.conteudo-beneficios {
+   width: 640px;
+   margin: 0 auto;
+}
+    
+      
+   
+
+
+
+   .lista-benificios {
+      width: 40%;
+      display: inline-block;
+      vertical-align: top;
+   }
+
+    .beneficios {
+         padding: 3em 0;
+         background-color: rgb(239, 179, 205);
+      }
+
+   .itens {
+      line-height: 1.5;
+   }
+
+   .itens:first {
+      font-weight: bold;
+   }
+
+   .principal {
+  background: #FFFFFFFF;
+  padding: 3em;
+  width: 940px;
+  margin: 0 auto;
+   }
+
+.mapa-conteudo {
+   width: 940px;
+   margin: 0 auto;
+}
+
+.itens:before {
+  content:"★";
+   }
+
+   @media screen and (max-width: 480px) {
+       .caixa,
+       .principal,
+       .conteudo-beneficios,
+       .mapa-conteudo,
+       .video, {
+         width: auto;
+       }
+
+         h1{
+            text-align: center;
+         }
+       nav {
+         position: static;
+       }
+ 
+      .lista-benificios,
+    imagem-beneficios {
+      width: 100%;
+    }
+
+      }
+
+
+      

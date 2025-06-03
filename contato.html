@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Produtos - Mb-mais bonita</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="caixa">
+      <h1><img src="logo_2-removebg-preview (3).png"></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="produtos.html">PRODUTOS</a></li>
+          <li><a href="contato.html">CONTATOS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <form>
+      <label>Nome e sobrenome<input type="text" class="input-padrao" required></label>
+      <label>Telefone<input type="email" class="input-padrao" required placeholder="seuemail@dominio"></label>
+      <label>E-mail<input type="tel" class="input-padrao" required placeholder="(XX)XXXXX-XXXX"></label>
+
+
+      <label for="mensagem">Digite sua mensagem</label>
+      <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+      <fieldset>
+        <label>Como prefere o nosso contato:</label>
+        <label for="radio-Email"> <input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+
+        <label for="radio-telefone"> <input type="radio" name="contato" value="Telefone"
+            id="radio-telefone">Telefone</label>
+
+        <label for="radio-whastsapp"> <input type="radio" name="contato" value="Whatsapp" id="radio-whastsapp"
+            checked>Whatsapp</label>
+
+      </fieldset>
+
+      <fieldset>
+        <label>Em que horário voce prefere que entremos em contato</label>
+        <select>
+          <option>Manhã</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+      </fieldset>
+
+      <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por e-mail</label>
+
+
+
+
+      <input class="enviar" type="submit" value="Enviar formulário">
+
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+           <th>Segunda</th>
+           <th>8h ~ 20h</th>
+          </tr>
+          <tr>
+          <th>Quarta</th>
+          <th>8h ~ 20h</th>
+          </tr>
+          <tr>
+         <th>Sexta</th>
+         <th>8h ~ 20h</th>      
+         </th>
+        </tbody>
+        </table>
+      </form>
+
+
+    </form>
+  </main>
+  <footer>
+    <img src="png-clipart-woman-drawing-beauty-girl-white-face-thumbnail-removebg-preview.png" />
+    <p class="copyright">&copy; Mb-mais bonita - 2025</p>
+  </footer>
+</body>
+<html>
